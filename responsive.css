@@ -1,0 +1,43 @@
+@media screen and (min-width:1350px){
+    .container{
+        width: 100%;
+    }
+    .faq-container{
+        width: 920px;
+        display: flex;
+        flex-direction: row;
+        margin-top: 0;
+    }
+    .shadow-box{
+        height: 100%;
+        display: flex;
+        justify-content: end;
+        align-items: end;
+    }
+    .shadow{
+        background-image: none;
+        background-image: url(./assets/shadow2.svg);
+        background-repeat: no-repeat;
+        height: 500px;
+        width: 500px;
+    }
+    .mob-img{
+        display: none;
+    }
+    .desk-img{
+        display: block;
+    }
+    .section{
+        height: 100%;
+        margin-right: 90px;
+        margin-bottom: 0px;
+    }
+    .faq{
+        width: 279px;
+        display: flex;
+        justify-content: start;
+    }
+    .question p{
+        font-size: 14px;
+    }
+}

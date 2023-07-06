@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+*,*::after,
+*::before{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Kumbh Sans";
+}
+body{
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(180deg, #B068E9 0%, #6463E7 100%);
+ 
+}
+.container{
+  width: 375px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  display: flex;
+  justify-content: center;
+}
+.faq-container{
+  width: 327px;
+  border-radius: 23px;
+  background: #FFF;
+  box-shadow: 0px 50px 50px -20px rgba(53, 18, 122, 0.50);
+  margin-top: 68px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.shadow-box{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.shadow{
+    width: 240px;
+    height: 115px;
+    background-image: url(./assets/shadow1.svg);
+    background-repeat: no-repeat;
+}
+.desk-img{
+    display: none;
+}
+.mob-img{
+    width: 237px;
+    height: 180px;
+    position: relative;
+    top: -93px;
+    left: -12px;
+}
+.section{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.faq{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 58px;
+}
+.faq h1{
+    color: #1E1F36;
+    font-size: 32px;
+    font-family: "Kumbh Sans";
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.questions-box{
+    width: 279px;
+    margin-top: 38px;
+}
+.line{
+    width: 279px;
+    height: 1px;
+    margin-top: 18px;
+    margin-bottom: 17px;
+    background-color: #E8E8EA;
+}
+.lin{
+    margin-bottom: 48px;
+}
+.question{
+    width: 279px;
+    display: flex;
+    justify-content: space-between;
+}
+.question p:hover{
+    color: #F47B56;
+    transition: 1s;
+}
+.question .arrow2{
+    display: none;
+}
+.question p{
+    font-size: 13px;
+    color: #4B4C5F;
+    font-family: "Kumbh Sans";
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.answer{
+    width: 279px;
+}
+.answer .anw{
+    color: #787887;
+    font-size: 12px;
+    font-family: "Kumbh Sans";
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    margin-top: 13px;
+}
